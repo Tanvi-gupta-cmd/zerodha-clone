@@ -13,7 +13,7 @@ function Login() {
     try {
       console.log("REQUEST START");
       const res = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "https://zerodha-backend-svg0.onrender.com/api/auth/login",
         { email, password }
       );
 
